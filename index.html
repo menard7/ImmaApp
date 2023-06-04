@@ -1,236 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Find easily a doctor and book online an appointment">
-	<meta name="author" content="Ansonika">
-	<title>ImmaApp</title>
+	<meta name="author" content="Menard Pernelle">
+	<title>Accueil- ImmaApp</title>
 
-	<!-- Favicons-->
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
-
-	<!-- GOOGLE WEB FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
-
-	<!-- BASE CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/menu.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
-	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
+	<!--style de css-->
+	<link  rel="stylesheet" href="style.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ 
 <body>
-	<!-- YOUR CUSTOM CSS -->
-	<link href="css/custom.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<div class="header">
+		<!--nav-->
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="100px" alt="logo immappp"></a>
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul class="navbar-nav">
+			  
+			  <li class="nav-item">
+				<a class="nav-link" href="#demande">Nouvelle demande </a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Statut de demande</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#contact"> Contact</a>
+			  </li>
 
-	
-	<script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-11097556-8']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-	
-</head>
-
-<body>
-	
-	<div id="preloader" class="Fixed">
-		<div data-loader="circle-side"></div>
-	</div>
-	<!-- /Preload-->
-	
-	<div id="page">		
-	<header class="header_sticky">	
-		<a href="#menu" class="btn_mobile">
-			<div class="hamburger hamburger--spin" id="hamburger">
-				<div class="hamburger-box">
-					<div class="hamburger-inner"></div>
-				</div>
-			</div>
-		</a>
-		<!-- /btn_mobile-->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-6">
-					<!--div id="logo_home">
-						<h1><a href="index.html" title="Findoctor">E-MATRICULATION</a></h1>
-					</div-->
-				</div>
-				<div class="col-lg-9 col-6">
-					<ul id="top_access">
-						<li><a href="login.html"><i class="pe-7s-user"></i></a></li>
-					</ul>
-					<nav id="menu" class="main-menu">
-						<ul>
-							<li>
-							
-							</li>
-							<li>
-								<span><a href="#type demande">DEMANDES</a></span>
-								
-							</li>
-							<li>
-								<span><a href="#0">STATUT DE LA DEMANDE</a></span>
-								
-							</li>
-							<li><span><a href="#0"></a></span></li>
-							<li><span><a href="#0">CONTACTS     </a></span></li>
-							
-						</ul>
-					</nav>
-					<!-- /main-menu -->
-				</div>
-			</div>
+			  <li class="nav-item">
+				<a class="nav-link"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+			  </li>
+			</ul>
+		  </div>
 		</div>
-		<!-- /container -->
-	</header>
-	<!-- /header -->
+	  </nav>
+
+
+<div class="container hero m-5 text-center p-5" style="font-weight:800;">
+	<h3 class="" style="font-size:25px;font-weight:800; padding-top:54px;"> BIENVENUE SUR LA PLATEFORME IMMAAPP </h3>
+     <p><i>Révolutionnez votre immatriculation de moto en ligne</i></p>
 	
-	<main>
-		<div class="hero_home version_1">
-			
-		</div>
-		<!-- /Hero -->
-		
+</div>
+</div>
+<div class="demande-service m-5" id="demande">
+	<div class="row">
+		<h5 style="font-size: 20px; font-weight:900">Quel document souhaitez vous demander ?</h5>
 
-		<div id="type demande"class="container margin_120_95">
-			<div class="main_title text-left">
-				<h4>Quel <strong>document </strong> désirez vous demander? </h4>
-			</div>
-
-
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 bg-dark text-light p-4 fixed-height">
-						<div class="form-check">
-							<input class="form-check-input" type="radio" name="exampleRadios" id="demande" value="option1" >
-							<label class="form-check-label" for="exampleRadios1">
-							Demande d'immatriculation
-							</label>
-						</div>
-						<div class="form-check mt-5">
-							<input class="form-check-input" type="radio" name="exampleRadios" id="btndu" value="option2">
-							<label class="form-check-label" for="exampleRadios2">
-							Demande de duplicata
-							</label>
-						</div>
-						<div class="mt-5 text-right">
-
-							<button class="btn btn-primary">Obtenir</button>
-						</div>
-						
-					</div>
-					<div class="col-sm-6 bg-light pl-5">
-						<div id="immatriculation" class="small-font ">
-							<h6>PREMIERE IMMATRICULATION DE MOTO </h6>
-							<ol class="mt-4">
-								<li>La quittance de recette ANaaT ou BOA de 11500 fcfa</li>
-								<li>Feuillet de reception </li>
-								<li>Facture <strong>normalisée </strong>d'achat (originale)</li>
-								<li>Les papiers de douane (originale)</li>
-								<li>Une copie légalisée de la pièce nationale d'identité ou une copie simple du CIP</li>
-								<li>Une copie simple de l'attestation  d'immatriculation IFU pour les structures</li>
-								<li>Une atestation de résidence pour les étrangers</li>
-								<li>La moto elle meme (obligatoire)</li>
-							</ol>
-						</div>
-						<div id="duplicata" class="small-font">
-							<h6>DUPLICATA OU REMPLACEMENT CARTE GRISE DE MOTO</h6>
-							<ol class="mt-4">
-								<li>Un certificat de perte ou la carte grise à remplacer</li>
-								<li>Une photocopie légalisée de la carte d'identité légalisée de une copie simple du CIP</li>
-								<li>Quittance BOA de 7000 f au nom du propriétaire</li>
-								<li>Feuillet de reception</li>
-								<li>La moto elle meme</li>
-							</ol>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-
-			<script>
-			
-				$(document).ready(function() {
-					$(document).ready(function() {
-						$('#immatriculation').hide();
-						$('#duplicata').hide();
-						
-						$("#demande").click(function() {
-							$('#immatriculation').toggle();
-							$('#duplicata').hide();
-						});
-
-						$("#btndu").click(function() {
-							$('#immatriculation').hide();
-							$('#duplicata').toggle();
-						});
-					});
-
-				});
-			</script>
-			
-
-		</div>
-		<!-- /container -->
-	
-	</main>
-	<!-- /main content -->
-	
-	<div class="container">
-		<ul class="text-push-right mt-5">
-			<li> Pour toutes questions ou préoccupations concernant les services de <strong>ImmaApp</strong> veuillez nous contacter aux:</li><br>	
-		    <li>MOOV: <a href="#0">68789492</a>(Whatsapp & appels)</li>
-			<li>MTN: <a href="#0">90943999</a> (Whatsapp & appels)</li>
-		    <li>EMAIL: <a href="#0">ImmaApp@gmail.com</a> </li>
-		</ul>
-	</div>
-	<footer>
-		<div class="container margin_60_35">
-			<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12 shadow p-5" >
+				<b>
+				<div style="padding-bottom: 20px;"><input type="radio" name="demande" style="transform:scale(1.5);"id="immatriculation" class="m-2"><label>Demande d'immatriculation</label></div>
+				<div style="padding-bottom: 20px;"><input type="radio" name="demande" style="transform:scale(1.5);"id="duplicata" class="m-2"><label>Demande de duplicata de la carte grise</label></div>
+				</b>
+                <div class="btn-submit" style="float:right;" >
+				<button  class="btn btn-secondary ml-5" id="submit" disabled > OBTENIR <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 				
 			</div>
-			<!--/row-->
-			<hr>
+
+
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12">
 			
-					<div id="copy">© 2023- ImmaApp</div>
+				<div id="d_immatriculation" style="display:none">
+					<h6>PREMIERE IMMATRICULATION DE MOTO </h6>
+					<ul>
+						<li>La quittance de recette ANaaT ou BOA de 11500 fcfa</li>
+						<li>Feuillet de reception </li>
+						<li>Facture <strong>normalisée </strong>d'achat (originale)</li>
+						<li>Les papiers de douane (originale)</li>
+						<li>Une copie légalisée de la pièce nationale d'identité ou une copie simple du CIP</li>
+						<li>Une copie simple de l'attestation  d'immatriculation IFU pour les structures</li>
+						<li>Une atestation de résidence pour les étrangers</li>
+						<li>La moto elle meme (obligatoire)</li>
+					</ul>
+				  </div>
+				<div id="d_duplicata" style="display:none">
+					<h6>DUPLICATA OU REMPLACEMENT CARTE GRISE DE MOTO</h6>
+					<ul class="mt-4">
+						<li>Un certificat de perte ou la carte grise à remplacer</li>
+						<li>Une photocopie légalisée de la carte d'identité légalisée de une copie simple du CIP</li>
+						<li>Quittance BOA de 7000 f au nom du propriétaire</li>
+						<li>Feuillet de reception</li>
+						<li>La moto elle meme</li>
+					</ul>
 				</div>
 			</div>
+      
+
 		</div>
-	</footer>
-	<!--/footer-->
 	</div>
-	<!-- page -->
+</div>
 
-	<div id="toTop"></div>
-	<!-- Back to top button -->
 
-	<!-- COMMON SCRIPTS -->
-	<script src="js/jquery-3.6.3.min.js"></script>
-	<script src="js/common_scripts.min.js"></script>
-	<script src="js/functions.js"></script>
+<br>
+<div class="container contact_info p-3" id="contact">
+	<p>
+Pour toutes questions ou préoccupations sur les services de l'ANIP, veuillez nous contacter aux :<br>
+<br>
+Fixe : (+229) 210000001<br>
+Moov : (+229) 68789492 (Appels & WhatsApp)<br>
+MTN : (+229) 90943999 (Appels & WhatsApp)<br>
+Email : info@immappp.bj<br>
+<br>
+	</p>
+</div>
+<footer class="bg-secondary p-4 text-light text-center fixed"><h6>&copy 2023 IMMAAPP | Menard & Pernelle </h6></footer>
+
+<script>// Get the radio buttons and the button element
+	var immatriculationRadio = document.getElementById('immatriculation');
+	var duplicataRadio = document.getElementById('duplicata');
+	var submitButton = document.getElementById('submit');
+	var dImmatriculationDiv = document.getElementById('d_immatriculation');
+    var dDuplicataDiv = document.getElementById('d_duplicata');
+
+	
+	// Function to check if either radio is selected
+	function checkRadios() {
+	  if (immatriculationRadio.checked || duplicataRadio.checked) {
+		submitButton.disabled = false;
+		submitButton.classList.remove('danger');
+	  } else {
+		submitButton.disabled = true;
+		submitButton.classList.add('danger');
+	  }
+	}
+	
+	// Add event listeners to the radio buttons
+	immatriculationRadio.addEventListener('change', checkRadios);
+	duplicataRadio.addEventListener('change', checkRadios);
+
+	// Function to handle radio button change event
+function handleRadioChange() {
+	if (immatriculationRadio.checked) {
+	  dImmatriculationDiv.style.display = 'block';
+	  dDuplicataDiv.style.display = 'none';
+	} else if (duplicataRadio.checked) {
+	  dImmatriculationDiv.style.display = 'none';
+	  dDuplicataDiv.style.display = 'block';
+	}
+  }
+  
+  // Add event listeners to the radio buttons
+  immatriculationRadio.addEventListener('change', handleRadioChange);
+  duplicataRadio.addEventListener('change', handleRadioChange);
+
+  
+  function handleButtonClick() {
+	if (immatriculationRadio.checked) {
+	  window.location.href = 'nouvelle_demande.html'; // Redirect to nouvelle_demande.html
+	}
+	}
+	submitButton.addEventListener('click', handleButtonClick);
+
+
+	function handleButton2Click() {
+		if (duplicataRadio.checked) {
+		  window.location.href = 'duplicata.html'; // Redirect to nouvelle_demande.html
+		}
+		}
+	
+submitButton.addEventListener('click', handleButton2Click);
+
+
+
+
+  
+	
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
-
-
-
+</head>
 </html>
