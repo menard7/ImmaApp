@@ -125,6 +125,12 @@
                   <label for="adresse">Adresse :</label>
                   <textarea class="form-control" id="adresse" name="adresse" placeholder="Votre adresse"></textarea>
                 </div><br>
+                <div class="form-group">
+                  <label for="piece">Pièces à fournir:</label>
+                  <input type="file" class="form-control" name="piece[]" id>
+                </div><br>
+                  
+                <button type="submit" class="btn btn-secondary w-25 text-uppercase" style="float: left;">Précédent </button>
                 <button type="submit" class="btn btn-secondary w-25 text-uppercase" style="float: right;">Suivant </button>
               </div>
               
