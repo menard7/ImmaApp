@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Find easily a doctor and book online an appointment">
 	<meta name="author" content="Menard Pernelle">
-	<title>Accueil- ImmaApp</title>
+	<title>Nouvelle demande- ImmaApp</title>
 
 	<!--style de css-->
 	<link  rel="stylesheet" href="style.css" >
@@ -25,7 +25,7 @@
 				<a class="nav-link" href="index_accueil.php">Nouvelle demande </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Statut de demande</a>
+				<a class="nav-link" href="statut_demande.php">Statut de demande</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="#contact"> Contact</a>

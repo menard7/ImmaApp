@@ -25,7 +25,7 @@
 				<a class="nav-link" href="#demande">Nouvelle demande </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Statut de demande</a>
+				<a class="nav-link" href="statut_demande.php">Statut de demande</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="#contact"> Contact</a>
