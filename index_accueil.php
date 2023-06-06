@@ -150,7 +150,7 @@ function handleRadioChange() {
   
   function handleButtonClick() {
 	if (immatriculationRadio.checked) {
-	  window.location.href = 'nouvelle_demande.html'; // Redirect to nouvelle_demande.html
+	  window.location.href = 'nouvelle_demande.php'; // Redirect to nouvelle_demande.html
 	}
 	}
 	submitButton.addEventListener('click', handleButtonClick);
