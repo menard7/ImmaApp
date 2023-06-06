@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/easion.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
     <script src="assets/js/chart-js-config.js"></script>
-    <title>e-Immatriculation</title>
+    <title>ImmaApp</title>
 </head>
 
 <?php
@@ -21,6 +21,7 @@ if (isset($_SESSION['admin_id'])) {
     header('Location: index.php');
     exit;
 }
+
 
 // Vérifier si le formulaire de connexion a été soumis
 if (isset($_POST['submit'])) {
@@ -69,7 +70,7 @@ if (isset($_POST['submit'])) {
 
 <body>
     <div class="form-screen">
-        <a href="index.html" class="easion-logo"><i class="fas fa-sun"></i> <span>e-Immatricule</span></a>
+        <a href="index.html" class="easion-logo"><i class="fas fa-sun"></i> <span>ImmaApp</span></a>
         <div class="card account-dialog">
             <div class="card-header bg-primary text-white">Connexion administrateur </div>
             <div class="card-body">

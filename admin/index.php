@@ -1,11 +1,11 @@
 <?php
-session_start();
+/*session_start();
 if(isset($_SESSION['login'])){
   header('location:index.php');
 }
 else{
   header('location: connexion.php');
-}
+}*/
 ?>
 
 <!doctype html>
@@ -19,7 +19,7 @@ else{
     <link rel="stylesheet" href="assets/css/easion.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
     <script src="assets/js/chart-js-config.js"></script>
-    <title>e-Immatriculation</title>
+    <title>ImmaApp</title>
 </head>
 
 <body>
@@ -36,8 +36,7 @@ else{
                     <i class="fas fa-home"></i> Tableau de bord  </a>
                 <div class="dash-nav-dropdown">
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
-                    <i class="fa fa-tasks" aria-hidden="true"></i>Gestion demande
-  </a>
+                    <i class="fa fa-tasks" aria-hidden="true"></i>Gestion des demandes</a>
                     <div class="dash-nav-dropdown-menu">
                         <a href="chartjs.html" class="dash-nav-dropdown-item">Demandes en attente</a>
                         <a href="chartjs.html" class="dash-nav-dropdown-item">Demandes validées</a>
@@ -58,7 +57,7 @@ else{
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
                         <i class="fas fa-cog"></i> Paramètre </a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="" class="dash-nav-dropdown-item">Liste des admin</a>
+                        <a href="" class="dash-nav-dropdown-item">Liste des admins</a>
                         <a href="" class="dash-nav-dropdown-item">Ajout des admins</a>
                     </div>   
                 </div>
@@ -66,9 +65,7 @@ else{
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
                         <i class="fas fa-info"></i> A propos </a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="https://github.com/subet/easion" target="_blank" class="dash-nav-dropdown-item">GitHub</a>
-                        <a href="https://usebootstrap.com/theme/easion" target="_blank" class="dash-nav-dropdown-item">UseBootstrap</a>
-                        <a href="https://mudimedia.com" target="_blank" class="dash-nav-dropdown-item">Mudimedia Software</a>
+                        
                     </div>
                 </div>
             </nav>
@@ -87,13 +84,7 @@ else{
                     <input type="text" class="searchbox-input" placeholder="type to search">
                 </form>
                 <div class="tools">
-                    <a href="https://github.com/subet/easion" target="_blank" class="tools-item">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#!" class="tools-item">
-                        <i class="fas fa-bell"></i>
-                        <i class="tools-item-count">4</i>
-                    </a>
+                    
                     <div class="dropdown tools-item">
                         <a href="#" class="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-user"></i>
