@@ -65,7 +65,7 @@ else{
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
                         <i class="fas fa-info"></i> A propos </a>
                     <div class="dash-nav-dropdown-menu">
-                        
+                    
                     </div>
                 </div>
             </nav>
@@ -91,7 +91,7 @@ else{
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
                             <a class="dropdown-item" href="#!">Profile</a>
-                            <a class="dropdown-item" href="login.html">Logout</a>
+                            <a class="dropdown-item" href="../index_accueil.php">Logout</a>
                         </div>
                     </div>
                 </div>
