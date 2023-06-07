@@ -69,11 +69,12 @@ if (isset($_POST['submit'])) {
 
 
 <body>
-    
+<div class="p-3 mb-2 bg-secondary text-white">
     <div class="form-screen  " >
-        <img src="../assets/images/logo.png" width="100px" >
+    <div class="p-3 mb-2 bg-secondary text-white"><img src="../assets/images/logo.png" width="100px" ></div>
+        
         <div class="card account-dialog">
-            <div class="card-header bg-primary text-white">Connexion administrateur </div>
+            <div class="card-header bg-info text-white">Connexion administrateur </div>
             <div class="card-body">
             <?php if (isset($erreur_message)) { ?>
         <p><?php echo $erreur_message; ?></p>
@@ -85,20 +86,20 @@ if (isset($_POST['submit'])) {
                     <div class="form-group">
                         <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="mot de passe">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group btn btn-info">
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="customCheck1">
                             <label class="custom-control-label" for="customCheck1">Souviens de moi</label>
                         </div>
                     </div>
                     <div class="account-dialog-actions">
-                        <button type="submit" class="btn btn-primary">Se connecter</button>
+                        <button type="submit" class="btn btn-info">Se connecter</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
+</div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
