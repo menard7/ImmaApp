@@ -41,8 +41,8 @@
 
 
 <div class="container hero m-5 text-center p-5" style="font-weight:800;">
-	<h3 class="" style="font-size:25px;font-weight:800; padding-top:54px;"> BIENVENUE SUR LA PLATEFORME IMMAAPP </h3>
-     <p><i>Révolutionnez votre immatriculation de moto en ligne</i></p>
+	<h3 class="" style="font-size:25px;font-weight:800; padding-top:100px; margin-right:-100px"> BIENVENUE SUR LA PLATEFORME IMMAAPP </h3>
+     <p style="margin-right:-100px"><i>Révolutionnez votre immatriculation de moto en ligne</i></p>
 	
 </div>
 </div>
@@ -56,7 +56,7 @@
 				<div style="padding-bottom: 20px;"><input type="radio" name="demande" style="transform:scale(1.5);"id="duplicata" class="m-2"><label>Demande de duplicata de la carte grise</label></div>
 				</b>
                 <div class="btn-submit" style="float:right;" >
-				<button  class="btn btn-secondary ml-5" id="submit" disabled > OBTENIR <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+				<button  class="btn btn-secondary ml-5" id="submit" disabled > OBTENIR <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
 				
 			</div>
 

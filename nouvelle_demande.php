@@ -105,8 +105,8 @@
                       <input type="text" class="form-control" id="modele" name="modele" placeholder="Modèle de moto">
                     </div><br>
                     <div class="form-group">
-                      <label for="numero_serie">Numéro de série :</label>
-                      <input type="text" class="form-control" id="numero_serie" name="numero_serie" placeholder="Numéro de série">
+                      <label for="numero_chasi">Numéro de chasie :</label>
+                      <input type="text" class="form-control" id="numero_chasie" name="numero_chasie" placeholder="Numéro de chasie">
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -130,8 +130,8 @@
                   <input type="file" class="form-control" name="piece[]" id>
                 </div><br>
                   
-                <button type="submit" class="btn btn-secondary w-25 text-uppercase" style="float: left;">Précédent </button>
-                <button type="submit" class="btn btn-secondary w-25 text-uppercase" style="float: right;">Suivant </button>
+                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="index_accueil.php" style="float: left;">Précédent </a>
+                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="page_suivante.php"style="float: right;">Suivant </a>
               </div>
               
 
