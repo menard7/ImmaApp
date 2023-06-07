@@ -18,7 +18,7 @@
 	  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
 		<div class="container-fluid">
 		  <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="100px" alt="logo immappp"></a>
-		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
 			<ul class="navbar-nav">
 			  
 			  <li class="nav-item">
@@ -51,19 +51,19 @@
                   <div class="col-md-6">
                     <div class="form-group"><br>
                       <label for="nom">Nom :</label>
-                      <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom">
+                      <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="prenom">Prénom :</label>
-                      <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prénom">
+                      <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prénom" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="date_naissance">Date de naissance :</label>
-                      <input type="date" class="form-control" id="date_naissance" name="date_naissance">
+                      <input type="date" class="form-control" id="date_naissance" name="date_naissance" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="lieu_naissance">Lieu de naissance :</label>
-                      <input type="text" class="form-control" id="lieu_naissance" name="lieu_naissance" placeholder="Lieu de naissance">
+                      <input type="text" class="form-control" id="lieu_naissance" name="lieu_naissance" placeholder="Lieu de naissance" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="sexe">Sexe :</label>
@@ -77,23 +77,23 @@
                   <div class="col-md-6">
                     <div class="form-group"><br>
                       <label for="ville">Ville :</label>
-                      <input type="text" class="form-control" id="ville" name="ville" placeholder="Votre ville">
+                      <input type="text" class="form-control" id="ville" name="ville" placeholder="Votre ville" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="fonction">Fonction :</label>
-                      <input type="text" class="form-control" id="fonction" name="fonction" placeholder="Votre fonction">
+                      <input type="text" class="form-control" id="fonction" name="fonction" placeholder="Votre fonction" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="telephone">Numéro de téléphone :</label>
-                      <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Numéro de téléphone">
+                      <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Numéro de téléphone" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="email">Adresse email :</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Adresse email">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Adresse email" required>
                     </div>
                     <div class="form-group"><br>
                       <label for="marque">Marque de moto :</label>
-                      <input type="text" class="form-control" id="marque" name="marque" placeholder="Marque de moto">
+                      <input type="text" class="form-control" id="marque" name="marque" placeholder="Marque de moto" required>
                     </div>
                   </div>
                 </div><br>
@@ -102,28 +102,28 @@
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="modele">Modèle de moto :</label>
-                      <input type="text" class="form-control" id="modele" name="modele" placeholder="Modèle de moto">
+                      <input type="text" class="form-control" id="modele" name="modele" placeholder="Modèle de moto"required>
                     </div><br>
                     <div class="form-group">
                       <label for="numero_chasi">Numéro de chasie :</label>
-                      <input type="text" class="form-control" id="numero_chasie" name="numero_chasie" placeholder="Numéro de chasie">
+                      <input type="text" class="form-control" id="numero_chasie" name="numero_chasie" placeholder="Numéro de chasie" required>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="numero_moteur">Numéro de moteur :</label>
-                      <input type="text" class="form-control" id="numero_moteur" name="numero_moteur" placeholder="Numéro de moteur">
+                      <input type="text" class="form-control" id="numero_moteur" name="numero_moteur" placeholder="Numéro de moteur" required>
                     </div><br>
                     <div class="form-group">
                       <label for="couleur">Couleur de moto :</label>
-                      <input type="text" class="form-control" id="couleur" name="couleur" placeholder="Couleur de moto">
+                      <input type="text" class="form-control" id="couleur" name="couleur" placeholder="Couleur de moto" required>
                     </div>
                   </div>
                 </div>
                 <br>
                 <div class="form-group">
                   <label for="adresse">Adresse :</label>
-                  <textarea class="form-control" id="adresse" name="adresse" placeholder="Votre adresse"></textarea>
+                  <textarea class="form-control" id="adresse" name="adresse" placeholder="Votre adresse" required></textarea>
                 </div><br>
                 <div class="form-group">
                   <label for="piece">Pièces à fournir:</label>
@@ -131,7 +131,8 @@
                 </div><br>
                   
                 <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="index_accueil.php" style="float: left;">Précédent </a>
-                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="page_suivante.php"style="float: right;">Suivant </a>
+                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="page_suivant
+                .php"style="float: right;">Suivant </a>
               </div>
               
 

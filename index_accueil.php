@@ -17,7 +17,7 @@
 		<!--nav-->
 	  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="100px" alt="logo immappp"></a>
+		  <a class="navbar-brand" href=""><img src="assets/images/logo.png" width="100px" alt="logo immappp"></a>
 		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 			<ul class="navbar-nav">
 			  
@@ -32,7 +32,7 @@
 			  </li>
 
 			  <li class="nav-item">
-				<a class="nav-link"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+				<a class="nav-link" href="../ImmaApp/admin/connexion.php"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
 			  </li>
 			</ul>
 		  </div>
@@ -45,8 +45,8 @@
      <p style="margin-right:-100px"><i>Révolutionnez votre immatriculation de moto en ligne</i></p>
 	
 </div>
-</div>
-<div class="demande-service m-5" id="demande">
+</div >
+<div class="demande-service m-5" id="demande" >
 	<div class="row">
 		<h5 style="font-size: 20px; font-weight:900">Quel document souhaitez vous demander ?</h5>
 

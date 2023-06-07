@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
 
 <body>
     <div class="form-screen">
-        <a href="index.html" class="easion-logo"><i class="fas fa-sun"></i> <span>ImmaApp</span></a>
+        <img src="../assets/images/logo.png" width="100px" >
         <div class="card account-dialog">
             <div class="card-header bg-primary text-white">Connexion administrateur </div>
             <div class="card-body">
