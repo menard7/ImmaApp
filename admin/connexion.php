@@ -69,7 +69,8 @@ if (isset($_POST['submit'])) {
 
 
 <body>
-    <div class="form-screen">
+    
+    <div class="form-screen  " >
         <img src="../assets/images/logo.png" width="100px" >
         <div class="card account-dialog">
             <div class="card-header bg-primary text-white">Connexion administrateur </div>
