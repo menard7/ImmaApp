@@ -36,11 +36,11 @@ else{
                     <i class="fas fa-home"></i> Tableau de bord  </a>
                 <div class="dash-nav-dropdown">
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
-                    <i class="fa fa-tasks" aria-hidden="true"></i>Gestion des demandes</a>
+                    <i class="fa fa-tasks" aria-hidden="true"></i> Demandes</a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="chartjs.html" class="dash-nav-dropdown-item">Demandes en attente</a>
-                        <a href="chartjs.html" class="dash-nav-dropdown-item">Demandes validées</a>
-                        <a href="chartjs.html" class="dash-nav-dropdown-item">Demandes rejetées</a>
+                        <a href="chartjs.html" class="dash-nav-dropdown-item"> en attente</a>
+                        <a href="chartjs.html" class="dash-nav-dropdown-item"> validées</a>
+                        <a href="chartjs.html" class="dash-nav-dropdown-item"> rejetées</a>
 
                         
                     </div>
@@ -48,9 +48,11 @@ else{
                 
                 <div class="dash-nav-dropdown">
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
-                        <i class="fas fa-file"></i> Demandes </a>
+                        <i class="fas fa-plus"></i> Nouvelle  </a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="blank.html" class="dash-nav-dropdown-item">Ajouter</a>
+                        <a href="blank.html" class="dash-nav-dropdown-item">Demande</a>
+                        <a href="blank.html" class="dash-nav-dropdown-item">administrateur</a>
+
                     </div>
                 </div>
                 <div class="dash-nav-dropdown ">
@@ -58,7 +60,6 @@ else{
                         <i class="fas fa-cog"></i> Paramètre </a>
                     <div class="dash-nav-dropdown-menu">
                         <a href="" class="dash-nav-dropdown-item">Liste des admins</a>
-                        <a href="" class="dash-nav-dropdown-item">Ajout des admins</a>
                     </div>   
                 </div>
                 <div class="dash-nav-dropdown">

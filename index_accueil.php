@@ -158,7 +158,7 @@ function handleRadioChange() {
 
 	function handleButton2Click() {
 		if (duplicataRadio.checked) {
-		  window.location.href = 'duplicata.html'; // Redirect to nouvelle_demande.html
+		  window.location.href = 'duplicata.php'; // Redirect to nouvelle_demande.html
 		}
 		}
 	

@@ -14,7 +14,7 @@
 </head>
 
 <?php
-session_start();
+ session_start();
 
 // Vérifier si l'utilisateur est déjà connecté, le rediriger vers la page d'accueil
 if (isset($_SESSION['admin_id'])) {
@@ -23,50 +23,37 @@ if (isset($_SESSION['admin_id'])) {
 }
 
 
-// Vérifier si le formulaire de connexion a été soumis
-if (isset($_POST['submit'])) {
-    // Récupérer les données du formulaire
+
+// Vérification des informations de connexion
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $mot_de_passe = $_POST['mot_de_passe'];
 
-    // Se connecter à la base de données
-    $conn = mysqli_connect("localhost", "root", "", "ImmaApp_db");
+    // Vérifier si les informations de connexion sont valides
+    $sql = "SELECT * FROM admins WHERE email = '$email' AND mot_de_passe = '$mot_de_passe'";
+    $result = $conn->query($sql);
 
-    // Vérifier la connexion à la base de données
-    if (!$conn) {
-        die("Erreur de connexion à la base de données : " . mysqli_connect_error());
+    if ($result->num_rows > 0) {
+        // Connexion réussie
+        header('location: index.php');
+
+    
+    } else {
+        // Identifiants invalides
+         $error_m = "Identifiants invalides. Veuillez réessayer.";
     }
-
-    // Requête SQL pour récupérer l'administrateur avec l'email spécifié
-    $query = "SELECT * FROM admins WHERE email = '$email'";
-    $result = mysqli_query($conn, $query);
-
-    if ($result && mysqli_num_rows($result) > 0) {
-        $admin = mysqli_fetch_assoc($result);
-
-        // Vérifier le mot de passe
-        if (password_verify($password, $admin['password'])) {
-            // Mot de passe correct, enregistrer l'ID de l'administrateur dans la session
-            $_SESSION['admin_id'] = $admin['id'];
-
-            // Rediriger vers la page d'accueil de l'administrateur
-            header('Location: index.php');
-            exit;
-        }
-    }
-
-    // Fermer la connexion à la base de données
-    mysqli_close($conn);
-
-    // Afficher un message d'erreur si les informations de connexion sont incorrectes
-    $erreur_message = "Email ou mot de passe incorrect.";
 }
+
+$conn->close();
 ?>
 
 
 
 
 
+
+
+                                
 
 <body>
 <div class="p-3 mb-2 bg-secondary text-white">
@@ -76,15 +63,13 @@ if (isset($_POST['submit'])) {
         <div class="card account-dialog">
             <div class="card-header bg-info text-white">Connexion administrateur </div>
             <div class="card-body">
-            <?php if (isset($erreur_message)) { ?>
-        <p><?php echo $erreur_message; ?></p>
-    <?php } ?>
-                <form action="#!">
+        <p class="text-danger"></p>
+                <form action="connexion.php" method="post">
                     <div class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="mot de passe">
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="mot_de_passe" placeholder="mot de passe">
                     </div>
                     <div class="form-group btn btn-info">
                         <div class="custom-control custom-checkbox">
@@ -94,7 +79,9 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="account-dialog-actions">
                         <button type="submit" class="btn btn-info">Se connecter</button>
-                    </div>
+                        </div>
+                        <p class="box-register text-dark">Vous êtes nouveau ici? <a href="register.php">S'inscrire</a></p>
+
                 </form>
             </div>
         </div>
