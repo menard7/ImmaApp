@@ -88,7 +88,7 @@
                     </div>
                     <div class="form-group"><br>
                       <label for="telephone">Numéro de téléphone :</label>
-                      <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Numéro de téléphone" required>
+                      <input type="tel" class="form-control" id="telephone" name="telephone" placeholder=" 229XXXXXXXX" value="+229" required oninput="limitPhoneNumber(this)" maxlength="11">
                     </div>
                     <div class="form-group"><br>
                       <label for="email">Adresse email :</label>
@@ -206,6 +206,13 @@
     // Add event listeners to the radio buttons
     immatriculationRadio.addEventListener('change', handleRadioChange);
     duplicataRadio.addEventListener('change', handleRadioChange);
+  </script>
+  <script>
+    function limitPhoneNumber(input) {
+      if (input.value.length > 12) {
+        input.value = input.value.slice(0, 12);
+      }
+    }
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
