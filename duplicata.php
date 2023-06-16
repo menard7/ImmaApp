@@ -22,13 +22,13 @@
 			<ul class="navbar-nav">
 			  
 			  <li class="nav-item">
-				<a class="nav-link" href="#demande">Nouvelle demande </a>
+				<a class="nav-link" href="index_accueil.php">Nouvelle demande </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Statut de demande</a>
+				<a class="nav-link" href="statut_demande.php">Statut de demande</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#contact"> Contact</a>
+				<a class="nav-link" href="index_accueil.php#contact"> Contact</a>
 			  </li>
 
 			  <li class="nav-item">
@@ -140,8 +140,8 @@
 
         </div>
         <div class="col-lg-4 bg-secondary p-2" >
-            <p class="text-center text-light"><i class="fa fa-question-circle" aria-hidden="true"></i>A propos de ce service
-        <hr>
+            <p class="text-center text-light"><i class="fa fa-question-circle" aria-hidden="true"></i>A propos de ce service </p>
+        
 
         </div>
 

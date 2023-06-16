@@ -47,7 +47,7 @@
   <div class="container">
 
     <div class="row">
-        <div class="col-lg-8 shadow p-3">
+        <div class="col-lg-8 shadow p-2">
             <div class="container">
                 <h3>Formulaire de demande</h3>
                 <div class="row">
@@ -142,10 +142,9 @@
         </div>
         </form>
 
-      </div>
       <div class="col-lg-4 bg-secondary p-2">
-        <p class="text-center text-light"><i class="fa fa-question-circle" aria-hidden="true"></i>A propos de ce service
-          <hr>
+        <p class="text-center text-light"><i class="fa fa-question-circle" aria-hidden="true"></i>A propos de ce service</p>
+          
 
       </div>
 
