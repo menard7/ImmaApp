@@ -27,13 +27,8 @@
 			  <li class="nav-item">
 				<a class="nav-link" href="statut_demande.php">Statut de demande</a>
 			  </li>
-<<<<<<< HEAD
 			  <li class="nav-item">
 				<a class="nav-link" href="index_accueil.php#contact"> Contact</a>
-=======
-			  <!--li class="nav-item">
-				<a class="nav-link" href="#contact"> Contact</a>
->>>>>>> aa9c51a (update)
 			  </li>
 
 			  <li class="nav-item">
