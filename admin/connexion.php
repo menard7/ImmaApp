@@ -28,23 +28,42 @@ if (isset($_SESSION['admin_id'])) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $mot_de_passe = $_POST['mot_de_passe'];
-
+    
     // Vérifier si les informations de connexion sont valides
+    $conn = mysqli_connect("localhost", "root", "", "ImmaApp_db");
     $sql = "SELECT * FROM admins WHERE email = '$email' AND mot_de_passe = '$mot_de_passe'";
     $result = $conn->query($sql);
+    
+// Définir les valeurs prédéfinies pour l'email et le mot de passe de l'administrateur
+$email = "admin@example.com";
+$mot_de_asse = "admin";
+$motDePasseHash = password_hash($mot_de_passeasse, PASSWORD_DEFAULT);
+// Utiliser une requête SQL pour insérer les valeurs dans la table des administrateurs
+$sql = "INSERT INTO admins (email, mot_de_passe) VALUES ('$email', '$motDePasseHash ')";
+
+if (mysqli_query($conn, $sql)) {
+    echo "Enregistrement de l'administrateur réussi.";
+} else {
+    echo "Erreur lors de l'enregistrement de l'administrateur : " . mysqli_error($conn);
+}
+
+// Fermer la connexion à la base de données
+mysqli_close($conn);
 
     if ($result->num_rows > 0) {
         // Connexion réussie
-        header('location: index.php');
+        header('Location: index.php');
 
     
     } else {
         // Identifiants invalides
          $error_m = "Identifiants invalides. Veuillez réessayer.";
+         header('Location: index.php');
+
     }
 }
 
-$conn->close();
+
 ?>
 
 
@@ -80,7 +99,7 @@ $conn->close();
                     <div class="account-dialog-actions">
                         <button type="submit" class="btn btn-info">Se connecter</button>
                         </div>
-                        <p class="box-register text-dark">Vous êtes nouveau ici? <a href="register.php">S'inscrire</a></p>
+                       
 
                 </form>
             </div>
