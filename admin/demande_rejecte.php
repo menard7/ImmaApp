@@ -65,7 +65,7 @@ else{
             <main class="dash-content">
 
             <div class="text-center p-5">
-    <h4><b>Demandes en attente</b></h3>
+    <h4><b>Demandes rejetées</b></h3>
   </div>
   <table class="table">
   <thead class="table-secondary">
@@ -74,7 +74,7 @@ else{
       <th scope="col">Noms</th>
       <th scope="col">Prénoms</th>
       <th scope="col">Marque de moto</th>
-      <th scope="col">Action</th>
+      <th scope="col">Observation</th>
       <!--th scope="col">Actions</th-->
       
     </tr>
@@ -87,8 +87,8 @@ else{
       <td></td>
       <td>
       <button class="btn btn-primary">Voir</button>
-        <button class="btn btn-success">Valider</button>
-        <button class="btn btn-danger">Annuler</button>
+      <button class="btn btn-success">Motif</button>
+        
 
 
         </td>
@@ -99,10 +99,8 @@ else{
       <td></td>
       <td></td>
       <td>
-        <button class="btn btn-primary">Voir</button>
-        <button class="btn btn-success">Valider</button>
-        <button class="btn btn-danger">Annuler</button>
-
+      <button class="btn btn-primary">Voir</button>
+      <button class="btn btn-success">Motif</button>
 
         </td>
     </tr>
@@ -113,8 +111,7 @@ else{
       <td></td>
       <td>
       <button class="btn btn-primary">Voir</button>
-      <button class="btn btn-success">Valider</button>
-      <button class="btn btn-danger">Annuler</button>
+      <button class="btn btn-success">Motif</button>
       </td>
     </tr>
   </tbody>

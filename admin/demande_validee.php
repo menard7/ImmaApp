@@ -65,10 +65,10 @@ else{
             <main class="dash-content">
 
             <div class="text-center p-5">
-    <h4><b>Demandes en attente</b></h3>
+    <h4><b>Demandes validées</b></h3>
   </div>
   <table class="table">
-  <thead class="table-secondary">
+  <thead class="table-secondary" >
     <tr>
       <th scope="col">N°</th>
       <th scope="col">Noms</th>
@@ -83,25 +83,28 @@ else{
   <tr>
       <th scope="row">1</th>
       <td>Mark</td>
-      <td></td>
-      <td></td>
+      <td>John</td>
+      <td>Hajoue</td>
+
+
       <td>
-      <button class="btn btn-primary">Voir</button>
+        <button class="btn btn-primary">Voir</button>
         <button class="btn btn-success">Valider</button>
-        <button class="btn btn-danger">Annuler</button>
 
 
-        </td>
+         
+       </td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
-      <td></td>
-      <td></td>
+      <td>Anicet</td>
+      <td>Waves</td>
+
+
       <td>
         <button class="btn btn-primary">Voir</button>
         <button class="btn btn-success">Valider</button>
-        <button class="btn btn-danger">Annuler</button>
 
 
         </td>
@@ -109,23 +112,22 @@ else{
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
-      <td></td>
-      <td></td>
+      <td>John</td>
+      <td>Yamaha</td>
+
       <td>
       <button class="btn btn-primary">Voir</button>
       <button class="btn btn-success">Valider</button>
-      <button class="btn btn-danger">Annuler</button>
-      </td>
+
+
+        
+        </td>
     </tr>
   </tbody>
   </tbody>
 </table>
 
-<script>
-  function showDocuments() {
-    $('#documents').removeClass('hidden');
-  }
-</script>
+
 
 <?php
 // Vérifier si le formulaire a été soumis
@@ -229,7 +231,7 @@ echo "</table>";
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Find easily a doctor and book online an appointment">
 	<meta name="author" content="Menard Pernelle">
-	<title>Demande en attente- ImmaApp</title>
+	<title>Demande validée- ImmaApp</title>
 
 	<!--style de css-->
 	<link  rel="stylesheet" href="style.css" >
