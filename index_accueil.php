@@ -66,16 +66,20 @@
 		<div class="col-lg-6 col-md-6 col-sm-12">
 			
 				<div id="d_immatriculation" style="display:none">
-					<h6>PREMIERE IMMATRICULATION DE MOTO </h6>
+				<h5>PIECES A FOURNIR </h5>
+					<h6>POUR LES ENGINS AYANT FAIT L'OBJET DE PAYEMENT DES FRAIS D'IMMATRICULATION AVANT DEDOUANEMENT A L'IMPORTATION </h6>
 					<ul>
+					    <li>Certificat d'Identification Personnelle(CIP) ou la carte biométrique CEDEAO de l'aquéreur</li>
 						<li>La quittance de recette ANaaT ou BOA de 11500 fcfa</li>
-						<li>Feuillet de reception </li>
 						<li>Facture <strong>normalisée </strong>d'achat (originale)</li>
-						<li>Les papiers de douane (originale)</li>
-						<li>Une copie légalisée de la pièce nationale d'identité ou une copie simple du CIP</li>
-						<li>Une copie simple de l'attestation  d'immatriculation IFU pour les structures</li>
-						<li>Une atestation de résidence pour les étrangers</li>
-						<li>La moto elle meme (obligatoire)</li>
+					</ul>
+					<h6>POUR LES ENGINS N'AYANT PAS SUBI LA FORMALITE PRECEDENTE</h6>
+					<ul>
+					    <li>Certificat d'Identification Personnelle(CIP) ou la carte biométrique CEDEAO de l'aquéreur</li>
+						<li>Déclaration de douane</li>
+						<li>Facture d'achat</li>
+						<li>Quittance de paiement de la Banque BOA</li>
+						<li>Une fiche de déclaration sur l'honneur à remplir</li>
 					</ul>
 				  </div>
 				<div id="d_duplicata" style="display:none">
