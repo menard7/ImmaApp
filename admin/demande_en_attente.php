@@ -44,11 +44,6 @@ else{
                 <a href="#!" class="searchbox-toggle">
                     <i class="fas fa-search"></i>
                 </a>
-                <form class="searchbox" action="#!">
-                    <a href="#!" class="searchbox-toggle"> <i class="fas fa-arrow-left"></i> </a>
-                    <button type="submit" class="searchbox-submit"> <i class="fas fa-search"></i> </button>
-                    <input type="text" class="searchbox-input" placeholder="type to search">
-                </form>
                 <div class="tools">
                     
                     <div class="dropdown tools-item">
@@ -88,7 +83,7 @@ else{
       <td>
       <button class="btn btn-primary">Voir</button>
         <button class="btn btn-success">Valider</button>
-        <button class="btn btn-danger">Annuler</button>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Rejeter</button>
 
 
         </td>
@@ -101,7 +96,7 @@ else{
       <td>
         <button class="btn btn-primary">Voir</button>
         <button class="btn btn-success">Valider</button>
-        <button class="btn btn-danger">Annuler</button>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Rejeter</button>
 
 
         </td>
@@ -114,12 +109,39 @@ else{
       <td>
       <button class="btn btn-primary">Voir</button>
       <button class="btn btn-success">Valider</button>
-      <button class="btn btn-danger">Annuler</button>
+      <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Rejeter</button>
       </td>
     </tr>
   </tbody>
   </tbody>
 </table>
+<!-- Le modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- En-tête du modal -->
+      <div class="modal-header">
+        <h4 class="modal-title">Motif</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Contenu du modal -->
+      <div class="modal-body">
+        <!-- Ajoutez ici le contenu du modal -->
+        <p>Entrez ici le motif.</p>
+      </div>
+
+      <!-- Pied du modal -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Confirmer</button>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
 
 <script>
   function showDocuments() {

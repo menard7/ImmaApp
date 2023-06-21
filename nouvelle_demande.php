@@ -88,7 +88,7 @@
                     </div>
                     <div class="form-group"><br>
                       <label for="telephone">Numéro de téléphone :</label>
-                      <input type="tel" class="form-control" id="telephone" name="telephone" placeholder=" 229XXXXXXXX" value="+229" required oninput="limitPhoneNumber(this)" maxlength="11">
+                      <input type="tel" class="form-control" id="telephone" name="telephone" placeholder=" 229XXXXXXXX" value="+229" required oninput="limitPhoneNumber(this)" maxlength="12">
                     </div>
                     <div class="form-group"><br>
                       <label for="email">Adresse email :</label>
@@ -209,8 +209,8 @@
   </script>
   <script>
     function limitPhoneNumber(input) {
-      if (input.value.length > 12) {
-        input.value = input.value.slice(0, 12);
+      if (input.value.length > 13) {
+        input.value = input.value.slice(0, 13);
       }
     }
   </script>
