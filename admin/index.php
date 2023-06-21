@@ -39,9 +39,9 @@ else{
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
                     <i class="fa fa-tasks" aria-hidden="true"></i> Demandes</a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="chartjs.html" class="dash-nav-dropdown-item"> en attente</a>
-                        <a href="chartjs.html" class="dash-nav-dropdown-item"> validées</a>
-                        <a href="chartjs.html" class="dash-nav-dropdown-item"> rejetées</a>
+                        <a href="demande_en_attente.php" class="dash-nav-dropdown-item"> en attente</a>
+                        <a href="demande_validee.php" class="dash-nav-dropdown-item"> validées</a>
+                        <a href="demande_rejecte.php" class="dash-nav-dropdown-item"> rejetées</a>
 
                         
                     </div>

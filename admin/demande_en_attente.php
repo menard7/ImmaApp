@@ -143,11 +143,6 @@ else{
 </div>
 
 
-<script>
-  function showDocuments() {
-    $('#documents').removeClass('hidden');
-  }
-</script>
 
 <?php
 // Vérifier si le formulaire a été soumis

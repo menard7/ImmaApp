@@ -1,4 +1,12 @@
-<nav class="dash-nav-list">
+<div class="dash-nav dash-nav-dark">
+            <header>
+                <a class="navbar-brand" href=""><img src="../assets/images/logo.png" width="100px" alt="logo immappp"></a>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </header>
+
+    <nav class="dash-nav-list">
                 <a href="index.php" class="dash-nav-item">
                     <i class="fas fa-home"></i> Tableau de bord  </a>
                 <div class="dash-nav-dropdown">
@@ -37,3 +45,4 @@
                     </div>
                 </div>
             </nav>
+</div>
