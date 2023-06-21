@@ -123,9 +123,8 @@
                   <input type="file" class="form-control" name="piece" id>
                 </div><br>
                   
-                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="index_accueil.php" style="float: left;">Précédent </a>
-                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="page_suivant
-                .php"style="float: right;">Suivant </a>
+                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="index.php" style="float: left;">Précédent </a>
+                <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="#!"style="float: right;">Suivant </a>
               </div>
               
 

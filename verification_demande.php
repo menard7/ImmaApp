@@ -20,7 +20,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $couleur = $_POST["couleur"];
     $adresse = $_POST["adresse"];
     $piece = $_FILES["piece"];
-}
+}else {
+    // Certains champs sont vides, affichez un message d'erreur ou faites une action appropriée
+    echo "Veuillez remplir tous les champs requis.";}
 
 
 $servername = "localhost";

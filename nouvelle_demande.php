@@ -53,6 +53,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group"><br>
+                    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                       <label for="nom">Nom :</label>
                       <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
                     </div>
@@ -136,6 +137,7 @@
                 <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="index_accueil.php" style="float: left;">Précédent </a>
                 <a type="submit" class="btn btn-secondary w-25 text-uppercase" href="page_suivant
                 .php"style="float: right;">Suivant </a>
+                </form>
               </div>
               
 
