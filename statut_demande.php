@@ -59,18 +59,24 @@
 <body>
 
 <div class="container">
-  <form>
-    <div class="form-group">
-      <label for="identifiant">Identifiant :</label>
-      <input type="text" class="form-control" id="identifiant" placeholder="Entrez votre identifiant">
+  <div class="d-flex justify-content-center align-items-center">
+    <div class="row">
+      <form>
+        <div class="form-group">
+          <label for="identifiant">Identifiant :</label>
+          <input type="text" class="form-control" id="identifiant" placeholder="Entrez votre identifiant">
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse email :</label>
+          <input type="email" class="form-control" id="email" placeholder="Entrez votre adresse email">
+        </div>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+      </form>
     </div>
-    <div class="form-group">
-      <label for="email">Adresse email :</label>
-      <input type="email" class="form-control" id="email" placeholder="Entrez votre adresse email">
-    </div>
-    <button type="submit" class="btn btn-primary">Se connecter</button>
-  </form>
+  </div>
 </div>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
