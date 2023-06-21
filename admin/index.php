@@ -51,7 +51,7 @@ else{
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
                         <i class="fas fa-plus"></i> Nouvelle  </a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="blank.html" class="dash-nav-dropdown-item">Demande</a>
+                        <a href="demande_admin.php" class="dash-nav-dropdown-item">Demande</a>
                         <a href="blank.html" class="dash-nav-dropdown-item">administrateur</a>
 
                     </div>
