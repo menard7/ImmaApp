@@ -47,7 +47,7 @@
                     <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
                         <i class="fas fa-cog"></i> Paramètre </a>
                     <div class="dash-nav-dropdown-menu">
-                        <a href="" class="dash-nav-dropdown-item">Liste des admins</a>
+                        <a href="liste.php" class="dash-nav-dropdown-item">Liste des admins</a>
                     </div>   
                 </div>
                 <div class="dash-nav-dropdown">
