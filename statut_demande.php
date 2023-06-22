@@ -98,8 +98,6 @@
 <br>
 <br>
 <br>
-
-
 <footer class="bg-secondary p-4 text-light text-center"><h6>&copy 2023 IMMAAPP | Menard & Pernelle </h6></footer>
 
 

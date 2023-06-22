@@ -1,43 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Find easily a doctor and book online an appointment">
-  <meta name="author" content="Menard Pernelle">
-  <title>Nouvelle demande</title>
-
-  <!--style de css-->
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
 <body>
+<?php include("base.php") ?>
+<?php require_once('navbar.php') ?>
 
-  <!--nav-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
-    <div class="container-fluid">
-    <a class="navbar-brand" href=""><img src="../assets/images/logo.png" width="100px" alt="logo immappp"></a>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../statut_demande.php">Statut de demande</a>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <br>
-  <div class="text-center p-5">
-    <h4><b>Demande de document : immatriculation de moto</b></h3>
+  <div class="text-center p-2">
+    <h4><b>Demande de document : immatriculation de moto</b></h4>
   </div>
-  <hr>
-  <div class="container">
-
     <div class="row">
-        <div class="col-lg-8 shadow p-2">
+        <div class="col-1 "></div>
+        <div class="col-lg-10 pl-4 mb-4">
             <div class="container">
                 <h3>Formulaire de demande</h3>
                 <div class="row">
@@ -131,75 +101,4 @@
         </div>
         </form>
 
-      <div class="col-lg-4 bg-secondary p-2">
-        <p class="text-center text-light"><i class="fa fa-question-circle" aria-hidden="true"></i>A propos de ce service</p>
-          
-
-      </div>
-
-
-    </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <footer class="bg-secondary p-4 text-light text-center">
-    <h6>&copy 2023 IMMAAPP | Menard & Pernelle </h6>
-  </footer>
-
-  <script>
-    // Get the radio buttons and the button element
-    var immatriculationRadio = document.getElementById('immatriculation');
-    var duplicataRadio = document.getElementById('duplicata');
-    var submitButton = document.getElementById('submit');
-    var dImmatriculationDiv = document.getElementById('d_immatriculation');
-    var dDuplicataDiv = document.getElementById('d_duplicata');
-
-
-    // Function to check if either radio is selected
-    function checkRadios() {
-      if (immatriculationRadio.checked || duplicataRadio.checked) {
-        submitButton.disabled = false;
-        submitButton.classList.remove('danger');
-      } else {
-        submitButton.disabled = true;
-        submitButton.classList.add('danger');
-      }
-    }
-
-    // Add event listeners to the radio buttons
-    immatriculationRadio.addEventListener('change', checkRadios);
-    duplicataRadio.addEventListener('change', checkRadios);
-
-    // Function to handle radio button change event
-    function handleRadioChange() {
-      if (immatriculationRadio.checked) {
-        dImmatriculationDiv.style.display = 'block';
-        dDuplicataDiv.style.display = 'none';
-      } else if (duplicataRadio.checked) {
-        dImmatriculationDiv.style.display = 'none';
-        dDuplicataDiv.style.display = 'block';
-      }
-    }
-
-    // Add event listeners to the radio buttons
-    immatriculationRadio.addEventListener('change', handleRadioChange);
-    duplicataRadio.addEventListener('change', handleRadioChange);
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-</body>
-</head>
-
-</html>
