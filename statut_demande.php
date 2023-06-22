@@ -30,10 +30,10 @@
 			  <li class="nav-item">
 				<a class="nav-link" href="index_accueil.php#contact"> Contact</a>
 			  </li>
-
 			  <li class="nav-item">
-				<a class="nav-link"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
-			  </li-->
+				<a class="nav-link" href="../ImmaApp/admin/connexion.php"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+			  </li>
+			  
 			</ul>
 		  </div>
 		</div>
@@ -70,7 +70,7 @@
           <label for="email">Adresse email :</label>
           <input type="email" class="form-control" id="email" placeholder="Entrez votre adresse email">
         </div>
-        <button type="submit" class="btn btn-primary">Se connecter</button>
+        <button type="submit" class="btn btn-secondary">Se connecter</button>
       </form>
     </div>
   </div>

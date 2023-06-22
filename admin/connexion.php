@@ -75,12 +75,12 @@ mysqli_close($conn);
                                 
 
 <body>
-<div class="p-3 mb-2 bg-secondary text-white">
+<div class="p-3 mb-2 text-white">
     <div class="form-screen  " >
     <div class="p-3 mb-2 bg-secondary text-white"><img src="../assets/images/logo.png" width="100px" ></div>
         
         <div class="card account-dialog">
-            <div class="card-header bg-info text-white">Connexion administrateur </div>
+            <div class="card-header bg-secondary text-white">Connexion administrateur </div>
             <div class="card-body">
         <p class="text-danger"></p>
                 <form action="connexion.php" method="post">
@@ -90,14 +90,14 @@ mysqli_close($conn);
                     <div class="form-group">
                         <input type="password" class="form-control" id="exampleInputPassword1" name="mot_de_passe" placeholder="mot de passe">
                     </div>
-                    <div class="form-group btn btn-info">
+                    <div class="form-group btn btn-secondary">
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="customCheck1">
                             <label class="custom-control-label" for="customCheck1">Souviens de moi</label>
                         </div>
                     </div>
                     <div class="account-dialog-actions">
-                        <button type="submit" class="btn btn-info">Se connecter</button>
+                        <button type="submit" class="btn btn-secondary">Se connecter</button>
                         </div>
                        
 
@@ -112,6 +112,6 @@ mysqli_close($conn);
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.b/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/easion.js"></script>
-</body>ootstrapcdn.com/bootstrap/4.3.1
+</body>
 
 </html>
